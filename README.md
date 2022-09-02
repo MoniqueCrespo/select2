@@ -1,157 +1,281 @@
-Select2
-=======
-![Build Status][github-actions-image]
-[![Financial Contributors on Open Collective](https://opencollective.com/select2/all/badge.svg?label=financial+contributors)](https://opencollective.com/select2) [![cdnjs](https://img.shields.io/cdnjs/v/select2.svg)][cdnjs]
-[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/select2/badge)][jsdelivr]
 
-Select2 is a jQuery-based replacement for select boxes. It supports searching,
-remote data sets, and pagination of results.
-
-To get started, checkout examples and documentation at
-https://select2.org/
-
-Use cases
----------
-* Enhancing native selects with search.
-* Enhancing native selects with a better multi-select interface.
-* Loading data from JavaScript: easily load items via AJAX and have them
-  searchable.
-* Nesting optgroups: native selects only support one level of nesting. Select2
-  does not have this restriction.
-* Tagging: ability to add new items on the fly.
-* Working with large, remote datasets: ability to partially load a dataset based
-  on the search term.
-* Paging of large datasets: easy support for loading more pages when the results
-  are scrolled to the end.
-* Templating: support for custom rendering of results and selections.
-
-Browser compatibility
----------------------
-* IE 8+
-* Chrome 8+
-* Firefox 10+
-* Safari 3+
-* Opera 10.6+
-
-Usage
------
-You can source Select2 directly from a CDN like [jsDelivr][jsdelivr] or
-[cdnjs][cdnjs], [download it from this GitHub repo][releases], or use one of
-the integrations below.
-
-Integrations
-------------
-Third party developers have created plugins for platforms which allow Select2 to be integrated more natively and quickly. For many platforms, additional plugins are not required because Select2 acts as a standard `<select>` box.
-
-Plugins
-
-* [Django]
-  - [django-autocomplete-light]
-  - [django-easy-select2]
-  - [django-select2]
-* [Drupal] - [drupal-select2]
-* [Meteor] - [meteor-select2]
-* [Ruby on Rails][ruby-on-rails] - [select2-rails]
-* [Wicket] - [wicketstuff-select2]
-* [Yii 2][yii2] - [yii2-widget-select2]
-* [Angularjs][angularjs] - [mdr-angular-select2]
-
-Themes
-
-- [Bootstrap 3][bootstrap3] - [select2-bootstrap-theme]
-- [Bootstrap 4][bootstrap4] - [select2-bootstrap4-theme]
-- [Flat UI][flat-ui] - [select2-flat-theme]
-- [Metro UI][metro-ui] - [select2-metro]
-
-Missing an integration? Modify this `README` and make a pull request back here to Select2 on GitHub.
-
-Internationalization (i18n)
----------------------------
-Select2 supports multiple languages by simply including the right language JS
-file (`dist/js/i18n/it.js`, `dist/js/i18n/nl.js`, etc.) after
-`dist/js/select2.js`.
-
-Missing a language? Just copy `src/js/select2/i18n/en.js`, translate it, and
-make a pull request back to Select2 here on GitHub.
-
-Documentation
--------------
-The documentation for Select2 is available
-[online at the documentation website][documentation] and is located within the
-[`docs` directory of this repository][documentation-directory].
-
-Community
----------
-You can find out about the different ways to get in touch with the Select2
-community at the [Select2 community page][community].
-
-Copyright and license
----------------------
-The license is available within the repository in the [LICENSE][license] file.
-
-[cdnjs]: http://www.cdnjs.com/libraries/select2
-[community]: https://select2.org/getting-help
-[documentation]: https://select2.org
-[documentation-directory]: https://github.com/select2/select2/tree/develop/docs
-[freenode]: https://freenode.net/
-[github-actions-image]: https://github.com/select2/select2/workflows/CI/badge.svg
-[jsdelivr]: https://www.jsdelivr.com/package/npm/select2
-[license]: LICENSE.md
-[releases]: https://github.com/select2/select2/releases
-
-[angularjs]: https://angularjs.org/
-[bootstrap3]: https://getbootstrap.com/
-[bootstrap4]: https://getbootstrap.com/
-[django]: https://www.djangoproject.com/
-[django-autocomplete-light]: https://github.com/yourlabs/django-autocomplete-light
-[django-easy-select2]: https://github.com/asyncee/django-easy-select2
-[django-select2]: https://github.com/applegrew/django-select2
-[drupal]: https://www.drupal.org/
-[drupal-select2]: https://www.drupal.org/project/select2
-[flat-ui]: http://designmodo.github.io/Flat-UI/
-[mdr-angular-select2]: https://github.com/modulr/mdr-angular-select2
-[meteor]: https://www.meteor.com/
-[meteor-select2]: https://github.com/nate-strauser/meteor-select2
-[metro-ui]: http://metroui.org.ua/
-[select2-metro]: http://metroui.org.ua/select2.html
-[ruby-on-rails]: http://rubyonrails.org/
-[select2-bootstrap-theme]: https://github.com/select2/select2-bootstrap-theme
-[select2-bootstrap4-theme]: https://github.com/ttskch/select2-bootstrap4-theme
-[select2-flat-theme]: https://github.com/techhysahil/select2-Flat_Theme
-[select2-rails]: https://github.com/argerim/select2-rails
-[vue.js]: http://vuejs.org/
-[select2-vue]: http://vuejs.org/examples/select2.html
-[wicket]: https://wicket.apache.org/
-[wicketstuff-select2]: https://github.com/wicketstuff/core/tree/master/select2-parent
-[yii2]: http://www.yiiframework.com/
-[yii2-widget-select2]: https://github.com/kartik-v/yii2-widget-select2
-
-## Contributors
-
-### Code Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/select2/select2/graphs/contributors"><img src="https://opencollective.com/select2/contributors.svg?width=890&button=false" /></a>
-
-### Financial Contributors
-
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/select2/contribute)]
-
-#### Individuals
-
-<a href="https://opencollective.com/select2"><img src="https://opencollective.com/select2/individuals.svg?width=890"></a>
-
-#### Organizations
-
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/select2/contribute)]
-
-<a href="https://opencollective.com/select2/organization/0/website"><img src="https://opencollective.com/select2/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/select2/organization/1/website"><img src="https://opencollective.com/select2/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/select2/organization/2/website"><img src="https://opencollective.com/select2/organization/2/avatar.svg"></a>
-<a href="https://opencollective.com/select2/organization/3/website"><img src="https://opencollective.com/select2/organization/3/avatar.svg"></a>
-<a href="https://opencollective.com/select2/organization/4/website"><img src="https://opencollective.com/select2/organization/4/avatar.svg"></a>
-<a href="https://opencollective.com/select2/organization/5/website"><img src="https://opencollective.com/select2/organization/5/avatar.svg"></a>
-<a href="https://opencollective.com/select2/organization/6/website"><img src="https://opencollective.com/select2/organization/6/avatar.svg"></a>
-<a href="https://opencollective.com/select2/organization/7/website"><img src="https://opencollective.com/select2/organization/7/avatar.svg"></a>
-<a href="https://opencollective.com/select2/organization/8/website"><img src="https://opencollective.com/select2/organization/8/avatar.svg"></a>
-<a href="https://opencollective.com/select2/organization/9/website"><img src="https://opencollective.com/select2/organization/9/avatar.svg"></a>
+<h2 dir="auto"><a id="user-content-supported-sites" class="anchor" aria-hidden="true" href="#supported-sites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Supported Sites</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Site</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Hot Brazil</strong></td>
+<td><a href="https://hotbrazil.app.br/" rel="dofollow">https://hotbrazil.app.br/</a></td>
+</tr>
+<tr>
+<td align="center"><strong>4chan</strong></td>
+<td><a href="https://4chan.org" rel="nofollow">https://4chan.org</a></td>
+</tr>
+<tr>
+<td align="center"><strong>AfreecaTV</strong></td>
+<td><a href="https://afreecatv.com" rel="nofollow">https://afreecatv.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>ArtStation</strong></td>
+<td><a href="https://artstation.com" rel="nofollow">https://artstation.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>AsmHentai</strong></td>
+<td><a href="https://asmhentai.com" rel="nofollow">https://asmhentai.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Avgle</strong></td>
+<td><a href="https://avgle.com" rel="nofollow">https://avgle.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>baraag.net</strong></td>
+<td><a href="https://baraag.net" rel="nofollow">https://baraag.net</a></td>
+</tr>
+<tr>
+<td align="center"><strong>半次元</strong></td>
+<td><a href="https://bcy.net" rel="nofollow">https://bcy.net</a></td>
+</tr>
+<tr>
+<td align="center"><strong>BDSMlr</strong></td>
+<td><a href="https://bdsmlr.com" rel="nofollow">https://bdsmlr.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>bilibili</strong></td>
+<td><a href="https://bilibili.com" rel="nofollow">https://bilibili.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>ComicWalker</strong></td>
+<td><a href="https://comic-walker.com" rel="nofollow">https://comic-walker.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Coub</strong></td>
+<td><a href="https://coub.com" rel="nofollow">https://coub.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Danbooru</strong></td>
+<td><a href="https://danbooru.donmai.us" rel="nofollow">https://danbooru.donmai.us</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Kakao Webtoon</strong></td>
+<td><a href="http://webtoon.kakao.com" rel="nofollow">http://webtoon.kakao.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>DeviantArt</strong></td>
+<td><a href="https://deviantart.com" rel="nofollow">https://deviantart.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>E(x)Hentai Galleries</strong></td>
+<td><a href="https://e-hentai.org" rel="nofollow">https://e-hentai.org</a><br><a href="https://exhentai.org" rel="nofollow">https://exhentai.org</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Facebook</strong></td>
+<td><a href="https://facebook.com" rel="nofollow">https://facebook.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>FC2 Video</strong></td>
+<td><a href="https://video.fc2.com" rel="nofollow">https://video.fc2.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Flickr</strong></td>
+<td><a href="https://flickr.com" rel="nofollow">https://flickr.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Gelbooru</strong></td>
+<td><a href="https://gelbooru.com" rel="nofollow">https://gelbooru.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Hameln</strong></td>
+<td><a href="https://syosetu.org" rel="nofollow">https://syosetu.org</a></td>
+</tr>
+<tr>
+<td align="center"><strong>hanime.tv</strong></td>
+<td><a href="https://hanime.tv" rel="nofollow">https://hanime.tv</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Hentai Foundry</strong></td>
+<td><a href="https://hentai-foundry.com" rel="nofollow">https://hentai-foundry.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Hitomi.la</strong></td>
+<td><a href="https://hitomi.la" rel="nofollow">https://hitomi.la</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Imgur</strong></td>
+<td><a href="https://imgur.com" rel="nofollow">https://imgur.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Instagram</strong></td>
+<td><a href="https://instagram.com" rel="nofollow">https://instagram.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Iwara</strong></td>
+<td><a href="https://iwara.tv" rel="nofollow">https://iwara.tv</a><br><a href="https://ecchi.iwara.tv" rel="nofollow">https://ecchi.iwara.tv</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Jmana</strong></td>
+<td><a href="https://jmana.net" rel="nofollow">https://jmana.net</a></td>
+</tr>
+<tr>
+<td align="center"><strong>カクヨム</strong></td>
+<td><a href="https://kakuyomu.jp" rel="nofollow">https://kakuyomu.jp</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Likee</strong></td>
+<td><a href="https://likee.video" rel="nofollow">https://likee.video</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Luscious</strong></td>
+<td><a href="https://luscious.net" rel="nofollow">https://luscious.net</a></td>
+</tr>
+<tr>
+<td align="center"><strong>MyReadingManga</strong></td>
+<td><a href="https://myreadingmanga.info" rel="nofollow">https://myreadingmanga.info</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Naver Blog</strong></td>
+<td><a href="https://blog.naver.com" rel="nofollow">https://blog.naver.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Naver Cafe</strong></td>
+<td><a href="https://cafe.naver.com" rel="nofollow">https://cafe.naver.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Naver Post</strong></td>
+<td><a href="https://post.naver.com" rel="nofollow">https://post.naver.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Naver Webtoon</strong></td>
+<td><a href="https://comic.naver.com" rel="nofollow">https://comic.naver.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Naver TV</strong></td>
+<td><a href="https://tv.naver.com" rel="nofollow">https://tv.naver.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>nhentai</strong></td>
+<td><a href="https://nhentai.net" rel="nofollow">https://nhentai.net</a></td>
+</tr>
+<tr>
+<td align="center"><strong>nhentai.com</strong></td>
+<td><a href="https://nhentai.com" rel="nofollow">https://nhentai.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Niconico</strong></td>
+<td><a href="http://nicovideo.jp" rel="nofollow">http://nicovideo.jp</a></td>
+</tr>
+<tr>
+<td align="center"><strong>ニジエ</strong></td>
+<td><a href="https://nijie.info" rel="nofollow">https://nijie.info</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Nozomi.la</strong></td>
+<td><a href="https://nozomi.la" rel="nofollow">https://nozomi.la</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Pawoo</strong></td>
+<td><a href="https://pawoo.net" rel="nofollow">https://pawoo.net</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Pinterest</strong></td>
+<td><a href="https://pinterest.com" rel="nofollow">https://pinterest.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Pixiv</strong></td>
+<td><a href="https://pixiv.net" rel="nofollow">https://pixiv.net</a></td>
+</tr>
+<tr>
+<td align="center"><strong>pixivコミック</strong></td>
+<td><a href="https://comic.pixiv.net" rel="nofollow">https://comic.pixiv.net</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Pornhub</strong></td>
+<td><a href="https://pornhub.com" rel="nofollow">https://pornhub.com</a><br><a href="https://pornhubpremium.com" rel="nofollow">https://pornhubpremium.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Rule34.xxx</strong></td>
+<td><a href="https://rule34.xxx" rel="nofollow">https://rule34.xxx</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Sankaku Complex</strong></td>
+<td><a href="https://www.sankakucomplex.com" rel="nofollow">https://www.sankakucomplex.com</a><br><a href="https://chan.sankakucomplex.com" rel="nofollow">https://chan.sankakucomplex.com</a><br><a href="https://idol.sankakucomplex.com" rel="nofollow">https://idol.sankakucomplex.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Soundcloud</strong></td>
+<td><a href="https://soundcloud.com" rel="nofollow">https://soundcloud.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>小説家になろう</strong></td>
+<td><a href="https://syosetu.com" rel="nofollow">https://syosetu.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>TOKYO Motion</strong></td>
+<td><a href="https://tokyomotion.net" rel="nofollow">https://tokyomotion.net</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Tumblr</strong></td>
+<td><a href="https://tumblr.com" rel="nofollow">https://tumblr.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Twitch</strong></td>
+<td><a href="https://twitch.tv" rel="nofollow">https://twitch.tv</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Twitter</strong></td>
+<td><a href="https://twitter.com" rel="nofollow">https://twitter.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Vimeo</strong></td>
+<td><a href="https://vimeo.com" rel="nofollow">https://vimeo.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>V LIVE</strong></td>
+<td><a href="https://vlive.tv" rel="nofollow">https://vlive.tv</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Wayback Machine</strong></td>
+<td><a href="https://archive.org" rel="nofollow">https://archive.org</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Weibo</strong></td>
+<td><a href="https://weibo.com" rel="nofollow">https://weibo.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>WikiArt</strong></td>
+<td><a href="https://www.wikiart.org" rel="nofollow">https://www.wikiart.org</a></td>
+</tr>
+<tr>
+<td align="center"><strong>xHamster</strong></td>
+<td><a href="https://xhamster.com" rel="nofollow">https://xhamster.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>XNXX</strong></td>
+<td><a href="https://xnxx.com" rel="nofollow">https://xnxx.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>XVideos</strong></td>
+<td><a href="https://xvideos.com" rel="nofollow">https://xvideos.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Yande.re</strong></td>
+<td><a href="https://yande.re" rel="nofollow">https://yande.re</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Youku</strong></td>
+<td><a href="https://youku.com" rel="nofollow">https://youku.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>YouTube</strong></td>
+<td><a href="https://youtube.com" rel="nofollow">https://youtube.com</a></td>
+</tr>
+<tr>
+<td align="center"><strong>and more...</strong></td>
+<td><a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md">Supported sites by yt-dlp</a></td>
+</tr>
+</tbody>
+</table>
+</article>
