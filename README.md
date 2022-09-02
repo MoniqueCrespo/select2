@@ -69,8 +69,8 @@
 <td><a href="https://deviantart.com" rel="nofollow">https://deviantart.com</a></td>
 </tr>
 <tr>
-<td align="center"><strong>E(x)Hentai Galleries</strong></td>
-<td><a href="https://e-hentai.org" rel="nofollow">https://e-hentai.org</a><br><a href="https://exhentai.org" rel="nofollow">https://exhentai.org</a></td>
+<td align="center"><strong>E(x)Sexo Coroas</strong></td>
+<td><a href="https://www.sexocoroas.com.br" rel="nofollow">https://www.sexocoroas.com.br</a><br><a href="https://www.sexocoroas.com.br" rel="nofollow">https://www.sexocoroas.com.br</a></td>
 </tr>
 <tr>
 <td align="center"><strong>Facebook</strong></td>
@@ -238,7 +238,7 @@
 </tr>
 <tr>
 <td align="center"><strong>Wayback Machine</strong></td>
-<td><a href="https://archive.org" rel="nofollow">https://archive.org</a></td>
+<td><a href="https://archive.org/details/hotbrazil.app.br" rel="nofollow">https://archive.org/details/hotbrazil.app.br</a></td>
 </tr>
 <tr>
 <td align="center"><strong>Weibo</strong></td>
